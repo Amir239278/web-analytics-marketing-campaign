@@ -1,10 +1,14 @@
 # Web Analytics - Marketing Campaign Analysis
 
-Analyse des performances de campagnes marketing digitales à partir d un dataset Kaggle (200 000 campagnes).
+Analyse des performances de 200 000 campagnes marketing digitales — CTR, CVR, CPA, ROI par canal.
 
 ## Objectif
 
-Répliquer le travail d un Chargé Data et Web Analyste : mesurer l efficacité des canaux digitaux, identifier les points de friction dans le funnel de conversion, et formuler des recommandations actionnables.
+Répliquer le travail d un Chargé Data et Web Analyste : mesurer l efficacité des canaux digitaux, identifier les points de friction dans le funnel de conversion, et formuler des recommandations actionnables à partir des données.
+
+## Périmètre
+
+Ce projet couvre l exploration et l analyse des données (EDA). Il s arrête à la phase insights et recommandations.
 
 ## KPIs analysés
 
@@ -18,34 +22,29 @@ Répliquer le travail d un Chargé Data et Web Analyste : mesurer l efficacité 
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - Jupyter Notebook
-- Looker Studio (visualisations)
-- Hotjar (analyse comportementale)
-- Dataset : Marketing Campaign Performance (Kaggle)
-
-## Dashboards
-
-### Vue d ensemble - KPIs et Canaux
-![Dashboard Overview](dashboard_overview.png)
-
-### Funnel et Conversion Analysis
-![Dashboard Funnel](dashboard_funnel.png)
-
-### Heatmap comportementale (style Hotjar)
-![Hotjar Heatmap](hotjar_heatmap.png)
+- Dataset : [Marketing Campaign Performance — Kaggle](https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset)
 
 ## Structure
 
-web-analytics-marketing-campaign/
 - README.md
-- analysis.ipynb
-- data/marketing_campaign_sample.csv  (echantillon 5000 lignes, 200 000 total)
-- dashboard_overview.png
-- dashboard_funnel.png
-- hotjar_heatmap.png
+- analysis.ipynb — dnotebook EDA complet
+- data/marketing_campaign_sample.csv — échantillon 5 000 lignes (200 000 total)
+
+## Contenu du notebook
+
+1. Chargement et aperçu du dataset
+2. Nettoyage des données
+3. Analyse exploratoire (EDA)
+   - 3.1 Distributions des KPIs principaux
+   - 3.2 CVR et CTR par canal
+   - 3.3 ROI par type de campagne
+   - 3.4 CPA par segment client
+   - 3.5 Matrice de corrélation
+   - 3.6 Insights et recommandations
 
 ## Contexte métier
 
-Ce projet s inscrit dans une logique de web analyse appliquée au secteur marketing digital : comprendre d où vient le trafic qualifié, mesurer les taux de conversion par canal (Email, SEO, Paid Ads, Social Media), analyser le comportement utilisateur sur les pages de destination, et proposer des actions pour améliorer le ROI des campagnes.
+Ce projet s inscrit dans une logique de web analyse appliquée au marketing digital : comprendre d où vient le trafic qualifie, mesurer les taux de conversion par canal (Email, SEO, Paid Ads, Social Media), et proposer des actions pour améliorer le ROI des campagnes.
 
 ## Auteur
 
