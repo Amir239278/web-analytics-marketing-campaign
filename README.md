@@ -1,14 +1,14 @@
 # Web Analytics - Marketing Campaign Analysis
 
-Analyse des performances de 200 000 campagnes marketing digitales — CTR, CVR, CPA, ROI par canal.
+Analyse des performances de 200 000 campagnes marketing digitales : CTR, CVR, CPA, ROI par canal.
 
 ## Objectif
 
-Répliquer le travail d un Chargé Data et Web Analyste : mesurer l efficacité des canaux digitaux, identifier les points de friction dans le funnel de conversion, et formuler des recommandations actionnables à partir des données.
+Répliquer le travail d un Chargé Data et Web Analyste : mesurer l'efficacité des canaux digitaux, identifier les points de friction dans le funnel de conversion, et formuler des recommandations actionnables à partir des données.
 
 ## Périmètre
 
-Ce projet couvre l exploration et l analyse des données (EDA). Il s arrête à la phase insights et recommandations.
+Ce projet couvre l'exploration et l'analyse des données (EDA). Il s'arrête à la phase insights et recommandations.
 
 ## KPIs analysés
 
@@ -16,7 +16,7 @@ Ce projet couvre l exploration et l analyse des données (EDA). Il s arrête à 
 - **CVR** (Conversion Rate) : efficacité de la page et du parcours
 - **CPA** (Cost Per Acquisition) : rentabilité par canal
 - **ROI** : retour sur investissement par type de campagne
-- **Engagement Score** : qualité de l interaction utilisateur
+- **Engagement Score** : qualité de l'interaction utilisateur
 
 ## Stack technique
 
@@ -44,8 +44,8 @@ Ce projet couvre l exploration et l analyse des données (EDA). Il s arrête à 
 
 ## Contexte métier
 
-Ce projet s inscrit dans une logique de web analyse appliquée au marketing digital : comprendre d où vient le trafic qualifie, mesurer les taux de conversion par canal (Email, SEO, Paid Ads, Social Media), et proposer des actions pour améliorer le ROI des campagnes.
+Ce projet s inscrit dans une logique de web analyse appliquée au marketing digital : comprendre d'où vient le trafic qualifie, mesurer les taux de conversion par canal (Email, SEO, Paid Ads, Social Media), et proposer des actions pour améliorer le ROI des campagnes.
 
 ## Auteur
 
-Amir Meraka - Data Analyst
+Amir MERAKA - Data Analyst
